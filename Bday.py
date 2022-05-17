@@ -5,7 +5,7 @@ import time
 b = st.empty()
 b.title('Binary Classification of Birthdays Using Support Vector Machine')
 
-df = pd.read_csv('C:/Users/XTPotato/JupyterN/countries-aggregated.csv')['Country'].unique()
+df = pd.read_csv('countries-aggregated.csv')['Country'].unique()
 df = np.delete(df,169)
 c = st.container()
 with st.form('hi'):
